@@ -1,13 +1,17 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
-        String name2 = sc.nextLine();
-        int massages = sc.nextInt();
-        System.out.println("Привет, " + name + ", это твой помощник " + name2 + ".");
-        System.out.println("У тебя " + massages + " новых писем.");
+        System.out.print(0 + " ");
+        System.out.print(1 + " ");
+        System.out.print(2 + " ");
+        System.out.print(3 + " ");
+        System.out.print(4 + " " );
+        System.out.print(5 + " " );
+        System.out.print(6 + " " );
+        System.out.print(7 + " " );
+        System.out.print(8 + " " );
+        System.out.print(9);
     }
 }
 
