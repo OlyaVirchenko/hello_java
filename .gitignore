@@ -38,4 +38,6 @@ hello.java.iml
 ../.idea/*
 *.iml
 .idea/
+*.class
+
 
