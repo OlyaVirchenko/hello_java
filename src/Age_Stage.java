@@ -4,6 +4,7 @@ public class Age_Stage {
 
     public static void main(String[] args) {
         // Create a Scanner object to read input
+        //Scanner sc = new Scanner(System.in);
         Scanner sc = new Scanner(System.in);
 
         // Read the integer
