@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class DrinkConstructor {
+public class SpeedCarClass {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int inc = sc.nextInt();
         // Instantiate a Car object here and use the drive method
         // Use displaySpeed to print the current speed
-        Car car = new Car();
+        Car1 car = new Car1();
         car.drive(inc);
         car.displaySpeed();
 
@@ -14,10 +14,10 @@ public class DrinkConstructor {
     }
 }
 
-class Car {
+class Car1 {
     private int speed;
 
-    public Car() {
+    public Car1() {
         // Initialize the speed field here
         this.speed = 0;
     }
@@ -38,4 +38,3 @@ class Car {
         System.out.println(this.speed);
     }
 }
-
